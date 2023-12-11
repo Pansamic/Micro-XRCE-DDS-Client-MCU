@@ -1,0 +1,3 @@
+[submodule "Middlewares/Third_Party/cRingbuf"]
+	path = Middlewares/Third_Party/cRingbuf
+	url = https://github.com/Pansamic/cRingbuf

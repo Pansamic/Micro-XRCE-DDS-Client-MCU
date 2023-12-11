@@ -1,0 +1,19 @@
+{
+"configurations": [
+    {
+        "cwd": "${workspaceRoot}",
+        "executable": "${workspaceFolder}/build/Micro-XRCE-DDS-Client-MCU.elf",
+        "name": "stlink",
+        "request": "launch",
+        "type": "cortex-debug",
+        "servertype": "openocd",
+        "interface": "swd",
+        "configFiles": [
+            "interface/stlink.cfg",
+            "target/stm32f4x.cfg",],
+        "searchDir": [],
+        "runToEntryPoint": "main",
+        "showDevDebugOutput": "raw"
+    }
+]
+}

@@ -1,0 +1,11 @@
+{
+    "cortex-debug.armToolchainPath": "",
+    "cortex-debug.gdbPath": "arm-none-eabi-gdb",
+    "cortex-debug.openocdPath": "openocd",
+    "cortex-debug.variableUseNaturalFormat": true,
+    "files.associations": {
+        "bitset": "c",
+        "chrono": "c",
+        "algorithm": "c"
+    },
+}
