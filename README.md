@@ -1,5 +1,13 @@
 # Micro-XRCE-DDS-Client MCU porting demo
 
+This is a Micro-XRCE-DDS-Client porting of STM32F407ZGT6 MCU.
+You can port to another STM32 with the following tutorial.
+
+## Function of This Demo
+
+1. send customized `HelloWorld` message periodically.
+2. use USB CDC(default) or USART1 as transport interface.
+
 ## Compile and Flash
 
 ```bash
@@ -13,11 +21,6 @@ openocd -f interface/stlink.cfg -f target/stm32f4x.cfg -c "program ./Micro-XRCE-
 ```
 
 It need to automatically git clone from github. If you failed to compile because of failing to git clone, please check your web connection.
-
-## Function of This Demo
-
-1. send customized `HelloWorld` message periodically.
-2. use USB CDC(default) or USART1 as transport interface.
 
 ## Use other MCUs
 
